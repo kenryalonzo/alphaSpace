@@ -88,8 +88,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* Cube's letters are taller than their font size (93px of ink at 72px):
+   with the default line height, a title on two lines overlaps itself. */
 .cube-font {
   font-family: cube, sans-serif;
+  line-height: 1.35;
 }
 
 .align-element {
