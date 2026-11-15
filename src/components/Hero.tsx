@@ -24,7 +24,7 @@ const Hero = () => {
                 Journey through the cosmos with alphaSpace. Explore the latest discoveries from James Webb, SpaceX launches, and the wonders of our universe.
             </p>
             
-            <div className="flex gap-4 justify-center pt-4 animate__animated animate__fadeInUp animate__delay-1s">
+            <div className="flex flex-wrap gap-4 justify-center pt-4 animate__animated animate__fadeInUp animate__delay-1s">
                 <Link to="/apod">
                     <Button size="lg" className="rounded-full text-lg px-8 py-6 bg-white text-black hover:bg-gray-200 transition-all duration-300">
                         Daily Photo
